@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black; 
+}
+h1{
+    color: #edf5e1;
+}
+h3{
+    color: #c0ff00;
+}
+p{
+    color: #c0ff00;
+}
+/*navbar*/
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    color: #c0ff00;
+}
+.navbar a{
+    color: #c0ff00;
+}
+
+.navbar a:hover{
+    color: white;
+}
+.table {
+    color: #c0ff00;
+}
+.navbar-nav{
+    font-size: 18px; 
+}
+/* background image */
+
+/*button*/
+.btn{
+    color: #c0ff00;
+}
+.btn:hover{
+    color: #c0ff00;
+}
+
+/*progress bar */
+.progress{
+    height: 30px;
+    border-radius: 50px;
+    transition: all 0.5 ease;
+}
+.progress:hover{
+    transform: scale(1.1);
+}
+html, head, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#about{
+    margin-top:-50px;
+}
+.links{
+    overflow: hidden;
+    padding: 10px 0;
+}
+.links li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 15px;
+}
+.links li a{
+    color: #c0ff00;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.links li a:hover{
+    color: #edf5e1;
+}
+#footer{  
+    display: block;
+    justify-content: center;
+}
+.body {
+    background-size: cover;
+}
+#home {
+    background-size: cover;
+}
+#about {
+    background-size: cover;
+}
+#skills {
+    background-size: cover;
+}
+#contact {
+    background-size: cover;
+}
